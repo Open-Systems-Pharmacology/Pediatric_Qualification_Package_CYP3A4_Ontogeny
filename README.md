@@ -1,4 +1,4 @@
-# Pediatric Qualification Package for CYP2C8 Ontogeny
+# Pediatric Qualification Package for CYP3A4 Ontogeny
 
 In this repository the electronic package for qualification of CYP2C8 ontogeny using in vivo probe substances are stored, including
 
