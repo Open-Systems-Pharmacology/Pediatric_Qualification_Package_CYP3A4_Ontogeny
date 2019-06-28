@@ -10,10 +10,11 @@ For the Qualification of the CYP3A4 mediated elimination of compounds, the follo
 - Alfentanil [[1](#reference)]
 - Sufentanil [[2](#reference)]
 
-Necessary software to execute the qualification workflow:
-- Reporting-Engine: [https://github.com/Open-Systems-Pharmacology/Reporting-Engine/releases](https://github.com/Open-Systems-Pharmacology/Reporting-Engine/releases)
-- QualificationRunner: [https://github.com/Open-Systems-Pharmacology/QualificationRunner/releases](https://github.com/Open-Systems-Pharmacology/QualificationRunner/releases)
-- Markdown-joiner: [https://github.com/Open-Systems-Pharmacology/markdown-joiner/releases](https://github.com/Open-Systems-Pharmacology/markdown-joiner/releases) 
+
+Necessary software to execute the qualification workflow (see http://setup.open-systems-pharmacology.org for download links and instructions):
+- QualificationRunner
+- Reporting-Engine
+- Markdown-joiner 
 
 ### References
 
