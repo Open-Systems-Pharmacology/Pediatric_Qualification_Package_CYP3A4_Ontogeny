@@ -824,6 +824,16 @@
                 "Project": "Sufentanil",
                 "Simulation": "Guay 1991 patient 8",
                 "SectionId": 32
+            },
+            {
+                "Project": "Alfentanil",
+                "Simulation": "den Holländer 1992 ind 3",
+                "SectionId": 34
+            },
+            {
+                "Project": "Alfentanil",
+                "Simulation": "Meistelman 1987 children",
+                "SectionId": 34
             }
         ]
     },
