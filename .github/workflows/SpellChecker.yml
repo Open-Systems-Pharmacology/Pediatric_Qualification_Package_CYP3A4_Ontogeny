@@ -3,10 +3,10 @@ name: Spellcheck
 on: 
   push:
     branches:
-      - Spellcheck
+      - SpellCheck
   pull_request:
     branches:
-      - Spellcheck
+      - SpellCheck
       
 jobs:
   Spellcheck:
