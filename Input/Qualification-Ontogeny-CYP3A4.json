@@ -13,7 +13,7 @@
         },
         {
             "Id": "Alfentanil-Pediatrics",
-            "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Alfentanil-Pediatrics/main/Alfentanil-Pediatrics.json",
+            "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Alfentanil-Pediatrics/v1.0/Alfentanil-Pediatrics.json",
             "BuildingBlocks": [
               {
                 "Type": "Compound",
@@ -24,7 +24,7 @@
         },
         {
             "Id": "Sufentanil-Pediatrics",
-            "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Sufentanil-Pediatrics/main/Sufentanil-Pediatrics.json",
+            "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Sufentanil-Pediatrics/v1.0/Sufentanil-Pediatrics.json",
             "BuildingBlocks": [
               {
                 "Type": "Compound",
@@ -778,39 +778,39 @@
     "Sections": [
         {
             "Id": 2,
-            "Title": "Introduction to Pediatric Translation and CYP3A4 Ontogeny Qualification",
-            "Content": "Content/Section1.md"
+            "Title": "1 Introduction to Pediatric Translation and CYP3A4 Ontogeny Qualification",
+            "Content": "Content/Introduction.md"
         },
         {
             "Id": 3,
-            "Title": "Pediatric translation qualification results",
-            "Content": "Content/Section3.md",
+            "Title": "2 Pediatric translation qualification results",
+            "Content": "Content/Translation.md",
             "Sections": [
                 {
                     "Id": 31,
                     "Content": "Content/Sufentanil_children.md",
-                    "Title": "Sufentanil PK Ratio tables and Figures"
+                    "Title": "2.1 Sufentanil PK Ratio tables and Figures"
                 },
                 {
                     "Id": 32,
                     "Content": "Content/Concentration_time_profiles_children.md",
-                    "Title": "Sufentanil Concentration-Time profiles in Children"
+                    "Title": "2.2 Sufentanil Concentration-Time profiles in Children"
                 },
                 {
                     "Id": 33,
                     "Content": "Content/Alfentanil_children.md",
-                    "Title": "Alfentanil PK Ratio tables and Figures"
+                    "Title": "2.3 Alfentanil PK Ratio tables and Figures"
                 },
                 {
                     "Id": 34,
                     "Content": "Content/Concentration_time_profiles_children.md",
-                    "Title": "Alfentanil Concentration-Time profiles in Children"
+                    "Title": "2.4 Alfentanil Concentration-Time profiles in Children"
                 }
             ]
         },
         {
             "Id": 5,
-            "Title": "References",
+            "Title": "3 References",
             "Content": "Content/References.md",
             "Sections": []
         }
