@@ -3,19 +3,41 @@
     "Projects": [
         {
             "Id": "Alfentanil",
-            "Path": "https://github.com/Open-Systems-Pharmacology/Alfentanil-Model/releases/download/v2.0/Alfentanil-Model.json",
+            "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Alfentanil-Model/v2.2/Alfentanil-Model.json",
             "BuildingBlocks": []
         },
         {
             "Id": "Sufentanil",
-            "Path": "https://github.com/Open-Systems-Pharmacology/Sufentanil-Model/releases/download/v1.1/Sufentanil.json",
+            "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Sufentanil-Model/v1.2/Sufentanil.json",
             "BuildingBlocks": []
-        }
+        },
+        {
+            "Id": "Alfentanil-Pediatrics",
+            "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Alfentanil-Pediatrics/v1.0/Alfentanil-Pediatrics.json",
+            "BuildingBlocks": [
+              {
+                "Type": "Compound",
+                "Name": "Alfentanil",
+                "Project": "Alfentanil"
+              } 
+            ]
+        },
+        {
+            "Id": "Sufentanil-Pediatrics",
+            "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Sufentanil-Pediatrics/v1.0/Sufentanil-Pediatrics.json",
+            "BuildingBlocks": [
+              {
+                "Type": "Compound",
+                "Name": "Sufentanil",
+                "Project": "Sufentanil"
+              } 
+            ]
+        }   
     ],
     "ObservedDataSets": [
         {
             "Id": "PK-Parameter",
-            "Path": "PK-Parameters.csv",
+            "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Database-for-observed-data/v1.3/Pediatrics.csv",
             "Type": "PKRatio"
         }
     ],
@@ -146,273 +168,273 @@
                         "Symbol": "Circle",
                         "PKRatios": [
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Davis 1987 15.5months",
                                 "Output": "Organism|ArterialBlood|Plasma|Sufentanil|Concentration in container",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5130
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Davis 1987 5.2months",
                                 "Output": "Organism|ArterialBlood|Plasma|Sufentanil|Concentration in container",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5129
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 1",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5131
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 2",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5132
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 3",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5133
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 4",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5134
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 5",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5135
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 6",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5136
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 7",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5137
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 8",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5138
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 9",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5139
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 10",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5140
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 11",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5141
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 12",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5142
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 14",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5144
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 15",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5145
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 16",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5146
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 17",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5147
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 18",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5148
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 19",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5149
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 20",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5150
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "den Holländer 1992 ind 1",
                                 "Output": "Organism|ArterialBlood|Plasma|Alfentanil|Concentration in container",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5151
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "den Holländer 1992 ind 2",
                                 "Output": "Organism|ArterialBlood|Plasma|Alfentanil|Concentration in container",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5152
                             },
                             {
-                                "Project": "Alfentanil",
-                                "Simulation": "den Holländer 1992 ind 3 (for Ratioplot)",
+                                "Project": "Alfentanil-Pediatrics",
+                                "Simulation": "den Holländer 1992 ind 3",
                                 "Output": "Organism|ArterialBlood|Plasma|Alfentanil|Concentration in container",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5153
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "den Holländer 1992 ind 4",
                                 "Output": "Organism|ArterialBlood|Plasma|Alfentanil|Concentration in container",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5154
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "den Holländer 1992 ind 5",
                                 "Output": "Organism|ArterialBlood|Plasma|Alfentanil|Concentration in container",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5155
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "den Holländer 1992 ind C2",
                                 "Output": "Organism|ArterialBlood|Plasma|Alfentanil|Concentration in container",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5158
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "den Holländer 1992 ind C3",
                                 "Output": "Organism|ArterialBlood|Plasma|Alfentanil|Concentration in container",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5159
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "den Holländer 1992 ind C4",
                                 "Output": "Organism|ArterialBlood|Plasma|Alfentanil|Concentration in container",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5160
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "den Holländer 1992 ind C5",
                                 "Output": "Organism|ArterialBlood|Plasma|Alfentanil|Concentration in container",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5161
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "den Holländer 1992 ind C6",
                                 "Output": "Organism|ArterialBlood|Plasma|Alfentanil|Concentration in container",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5162
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "Meistelman 1987 ped.1",
                                 "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5163
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "Meistelman 1987 ped.2",
                                 "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5164
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "Meistelman 1987 ped.3",
                                 "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5165
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "Meistelman 1987 ped.4",
                                 "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5166
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "Meistelman 1987 ped.5",
                                 "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5167
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "Meistelman 1987 ped.6",
                                 "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5168
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "Meistelman 1987 ped.7",
                                 "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5169
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "Meistelman 1987 ped.8",
                                 "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
@@ -433,147 +455,147 @@
                         "Symbol": "Circle",
                         "PKRatios": [
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Davis 1987 15.5months",
                                 "Output": "Organism|ArterialBlood|Plasma|Sufentanil|Concentration in container",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5130
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Davis 1987 5.2months",
                                 "Output": "Organism|ArterialBlood|Plasma|Sufentanil|Concentration in container",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5129
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 1",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5131
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 2",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5132
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 3",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5133
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 4",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5134
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 5",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5135
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 6",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5136
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 7",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5137
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 8",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5138
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 9",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5139
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 10",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5140
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 11",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5141
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 12",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5142
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 14",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5144
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 15",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5145
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 16",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5146
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 17",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5147
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 18",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5148
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 19",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5149
                             },
                             {
-                                "Project": "Sufentanil",
+                                "Project": "Sufentanil-Pediatrics",
                                 "Simulation": "Guay 1991 patient 20",
                                 "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
@@ -594,126 +616,126 @@
                         "Symbol": "Circle",
                         "PKRatios": [
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "den Holländer 1992 ind 1",
                                 "Output": "Organism|ArterialBlood|Plasma|Alfentanil|Concentration in container",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5151
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "den Holländer 1992 ind 2",
                                 "Output": "Organism|ArterialBlood|Plasma|Alfentanil|Concentration in container",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5152
                             },
                             {
-                                "Project": "Alfentanil",
-                                "Simulation": "den Holländer 1992 ind 3 (for Ratioplot)",
+                                "Project": "Alfentanil-Pediatrics",
+                                "Simulation": "den Holländer 1992 ind 3",
                                 "Output": "Organism|ArterialBlood|Plasma|Alfentanil|Concentration in container",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5153
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "den Holländer 1992 ind 4",
                                 "Output": "Organism|ArterialBlood|Plasma|Alfentanil|Concentration in container",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5154
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "den Holländer 1992 ind 5",
                                 "Output": "Organism|ArterialBlood|Plasma|Alfentanil|Concentration in container",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5155
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "den Holländer 1992 ind C2",
                                 "Output": "Organism|ArterialBlood|Plasma|Alfentanil|Concentration in container",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5158
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "den Holländer 1992 ind C3",
                                 "Output": "Organism|ArterialBlood|Plasma|Alfentanil|Concentration in container",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5159
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "den Holländer 1992 ind C4",
                                 "Output": "Organism|ArterialBlood|Plasma|Alfentanil|Concentration in container",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5160
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "den Holländer 1992 ind C5",
                                 "Output": "Organism|ArterialBlood|Plasma|Alfentanil|Concentration in container",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5161
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "den Holländer 1992 ind C6",
                                 "Output": "Organism|ArterialBlood|Plasma|Alfentanil|Concentration in container",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5162
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "Meistelman 1987 ped.1",
                                 "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5163
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "Meistelman 1987 ped.2",
                                 "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5164
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "Meistelman 1987 ped.3",
                                 "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5165
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "Meistelman 1987 ped.4",
                                 "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5166
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "Meistelman 1987 ped.5",
                                 "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5167
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "Meistelman 1987 ped.6",
                                 "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5168
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "Meistelman 1987 ped.7",
                                 "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
                                 "ObservedDataRecordId": 5169
                             },
                             {
-                                "Project": "Alfentanil",
+                                "Project": "Alfentanil-Pediatrics",
                                 "Simulation": "Meistelman 1987 ped.8",
                                 "Output": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PK-Parameter",
@@ -724,114 +746,30 @@
                 ]
             }
         ],
-        "GOFMergedPlots": [
-            {
-                "Title": "Goodness-of-fit visual diagnostic plots of the sufentanil PBPK model performance: observed versus individually predicted plasma concentration versus time of all adult data.",
-                "SectionId": 41,
-                "PlotType": "predictedVsObserved",
-                "Groups": [
-                    {
-                        "Caption": "Sufentanil iv",
-                        "Symbol": "Circle",
-                        "OutputMappings": [
-                            {
-                                "Project": "Sufentanil",
-                                "Simulation": "Bovill 1984",
-                                "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Bovill_1984_the pk of sufentanil in surgical patients.Bovill 1984 Figure 1",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Sufentanil",
-                                "Simulation": "Willsie 2014 adults IV (for reporting)",
-                                "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Willsie 2014 Figure 1 IV mean (for reporting)",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Sufentanil",
-                                "Simulation": "Taverne 1992 (for reporting)",
-                                "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Taverne 1992 Figure 1 mean (for reporting)",
-                                "Color": "#000000"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "Title": "Goodness-of-fit visual diagnostic plots of the sufentanil PBPK model performance: weighted residuals versus time of all adult data.",
-                "SectionId": 41,
-                "PlotType": "residualsOverTime",
-                "Groups": [
-                    {
-                        "Caption": "Sufentanil iv",
-                        "Symbol": "Circle",
-                        "OutputMappings": [
-                            {
-                                "Project": "Sufentanil",
-                                "Simulation": "Bovill 1984",
-                                "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Bovill_1984_the pk of sufentanil in surgical patients.Bovill 1984 Figure 1",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Sufentanil",
-                                "Simulation": "Willsie 2014 adults IV (for reporting)",
-                                "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Willsie 2014 Figure 1 IV mean (for reporting)",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Sufentanil",
-                                "Simulation": "Taverne 1992 (for reporting)",
-                                "Output": "Organism|PeripheralVenousBlood|Sufentanil|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Taverne 1992 Figure 1 mean (for reporting)",
-                                "Color": "#000000"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
+        "GOFMergedPlots": [],
         "AllPlots": [
             {
-                "Project": "Sufentanil",
-                "Simulation": "Bovill 1984",
-                "SectionId": 42
-            },
-            {
-                "Project": "Sufentanil",
-                "Simulation": "Willsie 2014 adults IV (for reporting)",
-                "SectionId": 42
-            },
-            {
-                "Project": "Sufentanil",
-                "Simulation": "Taverne 1992 (for reporting)",
-                "SectionId": 42
-            },
-            {
-                "Project": "Sufentanil",
+                "Project": "Sufentanil-Pediatrics",
                 "Simulation": "Guay 1991 patient 11",
                 "SectionId": 32
             },
             {
-                "Project": "Sufentanil",
+                "Project": "Sufentanil-Pediatrics",
                 "Simulation": "Guay 1991 patient 3",
                 "SectionId": 32
             },
             {
-                "Project": "Sufentanil",
+                "Project": "Sufentanil-Pediatrics",
                 "Simulation": "Guay 1991 patient 8",
                 "SectionId": 32
             },
             {
-                "Project": "Alfentanil",
+                "Project": "Alfentanil-Pediatrics",
                 "Simulation": "den Holländer 1992 ind 3",
                 "SectionId": 34
             },
             {
-                "Project": "Alfentanil",
+                "Project": "Alfentanil-Pediatrics",
                 "Simulation": "Meistelman 1987 children",
                 "SectionId": 34
             }
@@ -840,76 +778,42 @@
     "Sections": [
         {
             "Id": 2,
-            "Title": "Chapter 1: Introduction to Pediatric Translation and CYP3A4 Ontogeny Qualification",
-            "Content": "Content/Section1.md"
+            "Title": "1 Introduction to Pediatric Translation and CYP3A4 Ontogeny Qualification",
+            "Content": "Content/Introduction.md"
         },
         {
             "Id": 3,
-            "Title": "Chapter 2: Pediatric translation qualification results",
-            "Content": "Content/Section3.md",
+            "Title": "2 Pediatric translation qualification results",
+            "Content": "Content/Translation.md",
             "Sections": [
                 {
                     "Id": 31,
                     "Content": "Content/Sufentanil_children.md",
-                    "Title": "Chapter 2.1: Sufentanil PK Ratio tables and Figures"
+                    "Title": "2.1 Sufentanil PK Ratio tables and Figures"
                 },
                 {
                     "Id": 32,
                     "Content": "Content/Concentration_time_profiles_children.md",
-                    "Title": "Chapter 2.2: Sufentanil Concentration-Time profiles in Children"
+                    "Title": "2.2 Sufentanil Concentration-Time profiles in Children"
                 },
                 {
                     "Id": 33,
                     "Content": "Content/Alfentanil_children.md",
-                    "Title": "Chapter 2.3: Alfentanil PK Ratio tables and Figures"
+                    "Title": "2.3 Alfentanil PK Ratio tables and Figures"
                 },
                 {
                     "Id": 34,
                     "Content": "Content/Concentration_time_profiles_children.md",
-                    "Title": "Chapter 2.4: Alfentanil Concentration-Time profiles in Children"
+                    "Title": "2.4 Alfentanil Concentration-Time profiles in Children"
                 }
             ]
         },
         {
-            "Id": 4,
-            "Title": "Chapter 3: Adult PBPK model building and performance",
-            "Content": "Content/Section2.md",
-            "Sections": [
-                {
-                    "Id": 40,
-                    "Content": "Content/Sufentanil_adults.md",
-                    "Title": "Chapter 3.1: Sufentanil Input Tables"
-                },
-                {
-                    "Id": 41,
-                    "Content": "Content/Sufentanil_diagnostics.md",
-                    "Title": "Chapter 3.2: Sufentanil Diagnostics Plots"
-                },
-                {
-                    "Id": 42,
-                    "Content": "Content/Concentration_time_profiles_adults.md",
-                    "Title": "Chapter 3.3: Sufentanil Concentration-Time profiles in Adults"
-                },
-                {
-                    "Id": 43,
-                    "Content": "Content/Alfentanil_adults.md",
-                    "Title": "Chapter 3.4: Alfentanil Input Tables"
-                }
-            ]
+            "Id": 5,
+            "Title": "3 References",
+            "Content": "Content/References.md",
+            "Sections": []
         }
     ],
-    "Inputs": [
-        {
-            "Project": "Sufentanil",
-            "Name": "Sufentanil",
-            "Type": "Compound",
-            "SectionId": 40
-        },
-        {
-            "Project": "Alfentanil",
-            "Name": "Alfentanil",
-            "Type": "Compound",
-            "SectionId": 43
-        }
-    ]
+    "Inputs": []
 }
