@@ -29,3 +29,6 @@ To qualify the OSP suite for the pediatric translation of the pharmacokinetics o
 - Alfentanil [[Alfentanil-Model](#3-references)]
 
 - Sufentanil [[Sufentanil-Model](#3-references)]
+
+The adult PBPK model reports and the corresponding PK-Sim project files are filed at: https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/
+
