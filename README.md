@@ -6,8 +6,8 @@ In this repository the electronic package for qualification of CYP3A4 ontogeny u
 
 For the Qualification of the CYP3A4 mediated elimination of compounds, the following probe substances were included:
 
-- Alfentanil [[1](#reference)]
-- Sufentanil [[2](#reference)]
+- Alfentanil [[1](#references)]
+- Sufentanil [[2](#references)]
 
 
 Necessary software to execute the qualification workflow (see http://setup.open-systems-pharmacology.org for download links and instructions):
